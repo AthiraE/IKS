@@ -1,0 +1,208 @@
+body{
+    margin-top: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color:blueviolet;
+
+}
+
+.container1{
+    width:50cm;
+    height:55cm;
+    background-color: #ffff;
+    margin-top:5cm;
+    margin-left:5cm;
+
+}
+nav{
+    width:50cm;
+    height:100px;
+    background-color:rgb(24, 12, 155);
+   
+    
+    
+}
+
+
+nav ul{
+    float :right;
+    margin-right: 20cm;
+    
+}
+nav ul a{
+    font-size: 30px;
+    margin-left:25px;
+    color: black;
+    font-weight: 400;
+}
+    
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    font-size: 25px;
+}
+nav ul li:hover{
+    background-color:rgb(115, 118, 122);
+    
+}
+nav ul li a{
+    color:black;
+    padding :30px;
+   
+}
+
+  .container2 {
+    position: relative;
+    height:40cm;
+    width: 50cm;
+    background: #fff;
+    margin-top: 0cm;
+    margin-left: 0cm;
+    
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  .container3{
+    width:25cm;
+    height:40cm;
+    margin-left:0cm;
+    background: #ffff;
+    
+    padding-top:-25px;
+  }
+  .container3 h1 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 200px;}
+ .container3 h2 {
+        font-size: 1.5rem;
+        color: #333;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 30px;
+        margin-right: 20px;
+    
+  }
+  .container3 h6 {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .container3 .form {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .form .input-box {
+    width: 70%;
+    margin-top: 20px;
+  }
+  .input-box label {
+    color: #333;
+  }
+  .form :where(.input-box input,.select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+  }
+  .input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .form .service-box {
+    margin-top: 20px;
+   
+  }
+  .service-box h3 {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+    
+  }
+  .form :where(.service-option,.service) {
+    display: flex;
+    align-items:center;
+    column-gap: 50px;
+    flex-wrap:wrap
+   
+  }
+  .form .service {
+    column-gap: 10px;
+    flex:100%
+    
+  }
+  .service input {
+    accent-color: rgb(130, 106, 251);
+  }
+  .form :where(.service input, .service label) {
+    cursor: pointer;
+   
+  }
+  .service label {
+    color: #707070;
+  
+  }
+  .select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+  }
+  .form button {
+    height: 55px;
+    width: 60%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left:120px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgb(130, 106, 251);
+  }
+  .form button:hover {
+    background: rgb(88, 56, 250);
+  }
+  /*Responsive*/
+  @media screen and (max-width: 500px) {
+    .form .column {
+      flex-wrap: wrap;
+    }
+    .form :where(.service-option, .service) {
+        row-gap: 15px;
+      }
+    }
+
+    .row {
+        display: flex;
+        margin-right: 10px;
+        
+      }
+
+      .column {
+        flex: 50%;
+      }
+    
+    
+    .container4{
+        margin-top: 20px;
+        margin-left:-20cm;
+    }
