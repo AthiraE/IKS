@@ -3,22 +3,22 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    background-color:blueviolet;
+    background-color:rgb(147, 144, 144);
 
 }
 
 .container1{
-    width:50cm;
-    height:55cm;
+    width:70cm;
+    height:56cm;
     background-color: #ffff;
     margin-top:5cm;
-    margin-left:5cm;
+    margin-left:15cm;
 
 }
 nav{
-    width:50cm;
-    height:100px;
-    background-color:rgb(24, 12, 155);
+    width:70cm;
+    height:3cm;
+    background-color:rgb(132, 59, 201);
    
     
     
@@ -65,7 +65,7 @@ nav ul li a{
   .container3{
     width:25cm;
     height:40cm;
-    margin-left:0cm;
+    margin-left:5cm;
     background: #ffff;
     
     padding-top:-25px;
@@ -77,7 +77,7 @@ nav ul li a{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 20px;
     margin-right: 20px;
-    padding-top: 200px;}
+    padding-top: 100px;}
  .container3 h2 {
         font-size: 1.5rem;
         color: #333;
@@ -85,7 +85,7 @@ nav ul li a{
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 30px;
         margin-right: 20px;
-    
+        margin-top: 10px;
   }
   .container3 h6 {
     font-size: 1rem;
@@ -142,7 +142,7 @@ nav ul li a{
    
   }
   .form .service {
-    column-gap: 10px;
+    column-gap: 15px;
     flex:100%
     
   }
@@ -171,7 +171,7 @@ nav ul li a{
     color: #fff;
     font-size: 1rem;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 1cm;
     margin-left:120px;
     border: none;
     cursor: pointer;
@@ -202,7 +202,53 @@ nav ul li a{
       }
     
     
-    .container4{
-        margin-top: 20px;
-        margin-left:-20cm;
-    }
+      .container4{
+        width:25cm;
+        height:56cm;
+        background-color: #fff;
+        margin-top:-43cm;
+        margin-left:50cm; 
+        }
+
+        .container4 h1 {
+          font-size: 1.5rem;
+          color: #333;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-left: 20px;
+          margin-right: 20px;
+          padding-top: 2px;}
+       .container4 h2 {
+              font-size: 1.5rem;
+              color: #333;
+              font-weight: 500;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-left: 30px;
+              margin-right: 20px;
+          
+        }
+        .container4 h6 {
+          font-size: 1rem;
+          color: #333;
+          font-weight: 100;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 50px;
+          margin-left: 30px;
+          margin-right: 20px;
+        }
+        .container4 .form {
+          margin-top: 50px;
+          margin-left: 30px;
+          margin-right: 20px;
+        }
+
+        .row1 {
+          display: flex;
+          margin-right: -10px;
+          
+        }
+  
+        .column1 {
+          flex: 50%;
+        }
+      
